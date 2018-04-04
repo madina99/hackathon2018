@@ -1,2 +1,2 @@
 # hackathon2018
-Проект команды Lee-ON
+Проект команды T E A M N A M E
