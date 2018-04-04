@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>**Team name here**</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -18,6 +19,9 @@
       </div>
       <div class="modal-body">
         <p>Андрей Дикарев</p>
+        <p>19 лет</p>
+        <p>ИУ6-41</p>
+        <p>Студент МГТУ им. Н. Э. Баумана</p>
       </div>
     </div>
   </div>
@@ -36,6 +40,9 @@
       </div>
       <div class="modal-body">
         <p>Даниил Ли</p>
+        <p>19 лет</p>
+        <p>ИУ6-44</p>
+        <p>Студент МГТУ им. Н. Э. Баумана</p>
       </div>
     </div>
   </div>
@@ -54,10 +61,10 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>Олег Евгеньевич Максименко</p>
+        <p>Олег Евгеньевич</p>
         <p>19 лет</p>
         <p>ИУ6-44</p>
-        <p>Студент МГТУ им.Н.Э.Баумана</p>
+        <p>Студент МГТУ им. Н. Э. Баумана</p>
       </div>
     </div>
   </div>
@@ -85,80 +92,92 @@
 
 
 
-  <div class="container w-100">
+  <div class="container w-100 main-content">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
+
+ 
         <div class="carousel-item active">
             <div class="jumbotron">
-              <h1 class="display-4">LEE-ON</h1>
-              <p class="lead">Мы небольшая команда...</p>
-              <hr class="my-4">
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-              </p>
+              <div class="content-in-center">
+                <h1 class="display-4">T E A M N A M E</h1>
+                <hr class="my-4">
+                <p class="lead">Team of four.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-danger" href="#carouselExampleIndicators" role="button" data-slide="next">Узнать больше</a>
+                </p>
+            </div>
             </div>
         </div>
+
+
         <div class="carousel-item">
           <div class="card-group">
+
             <div class="card">
-              <img class="card-img-top" src="dikarev.png" alt="Card image cap">
+              <div class="img-style">
+                <img class="card-img-top" src="src/dikarev.jpg" alt="Card image cap">
+              </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dikarev">////////Узнать больше</button>
+                <h5 class="card-title">Andrey Dikarev </h5>
+                <p class="card-text">Некоторый текст</p>
+
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#dikarev">Узнать больше</button>
 
               </div>
             </div>
 
-
             <div class="card">
-              <img class="card-img-top" src="lee.png" alt="Card image cap">
+              <div class="img-style">
+                <img class="card-img-top" src="src/lee.jpg" alt="Card image cap">
+              </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lee">Узнать больше</button>
+                <h5 class="card-title">Daniel Lee</h5>
+                <p class="card-text">Некоторый текст</p>
+
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#lee">Узнать больше</button>
               </div>
             </div>
 
-
             <div class="card">
-              <img class="card-img-top" src="maksimenko.png" alt="Card image cap">
+              <div class="img-style">
+                <img class="card-img-top" src="src/maksimenko.jpg" alt="Card image cap">
+              </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#maksimenko">Узнать больше</button>
+                <h5 class="card-title">Oleg Maximenko</h5>
+                <p class="card-text">Некоторый текст</p>
+
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#maksimenko">Узнать больше</button>
               </div>
             </div>
 
-
             <div class="card">
-              <img class="card-img-top" src="esimhan.png" alt="Card image cap">
+              <div class="img-style">
+                <img class="card-img-top" src="src/esimhan.jpg" alt="Card image cap">
+              </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#esimhan">Узнать больше</button>
+                <h5 class="card-title">Madina Yesimhan</h5>
+                <p class="card-text">Некоторый текст</p>
+
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#esimhan">Узнать больше</button>
               </div>
             </div>
+
           </div>
         </div>
+
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
+
       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
       </a>
+
     </div>
   </div>
   
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
